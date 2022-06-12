@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+.container{
+    width: 800px;
+    height: 450px;
+    background-image: url(image/arkaplan.jpg);
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+.container h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+}
+
+.container .center{
+    position: relative;
+    left: 100px;
+    top: 55px;
+    width: 600px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.center .columns{
+    /* background-color: aqua;
+    opacity: .4;
+    */
+    background-color: rgba(237, 138, 138, 0.);
+    width: 290px;
+    height: 200px;
+    height: 100%;
+    display: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    border: 3px solid rgb(197, 84, 43);
+ 
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border: solid 3px rgb(203, 147, 44);
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(122, 104, 233);
+
+}
+
+
+.columns .yet{
+    margin: 7px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    background-color: burlywood;
+    padding: 3px;
+    display: inline;
+    
+}
+.columns .yet:hover{
+    color: orangered;
+    background-color: rebeccapurple;
+}
+/* #leftColumns{
+  
+} */
+
